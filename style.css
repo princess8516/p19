@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    height: 100%;
+    width: 100%;
+}.main{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(172, 138, 12); */
+}header{
+    width: 100%;
+    height: 10%; 
+    background-color: rgb(14, 13, 13);
+    color: white;
+   
+    font-size: 120%;
+    display: flex;
+    padding-left: 8%;
+   
+    /* justify-content: center; */
+   
+    align-items: center;
+}input{
+   font-size: 120%;
+   border-radius: 10px;
+ margin-left:20% ;
+ background-color: rgb(183, 199, 199);
+}.icon{
+    margin-left: 40%;
+    font-size: 150%;
+}.content{
+    height: 80%;
+    width: 100%;
+    background-color: lightgray;
+    /* display: inline-flex; */
+}.i1{
+    height: 45%;
+    width: 23%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 4px 8px;
+  background-image: url("https://www.shutterstock.com/image-vector/cute-little-monkey-cartoon-on-600nw-2230049115.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.i2{
+    height: 45%;
+    width: 23%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+    display: inline-flex;
+  margin: 2px 3px;
+  background-image: url("https://rukminim2.flixcart.com/image/850/1000/l44hyfk0/poster/f/g/x/large-oggy-and-the-cockroaches-big-size-flex-poster-for-room-md-original-imagf3j7uq5z2wdv.jpeg?q=90&crop=false");
+  background-size: cover;
+  background-position: center;
+}.i3{
+    height: 45%;
+    width: 23%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 2px 3px;
+  background-image: url("https://i.scdn.co/image/ab67616d00001e02db4434856e8fdb498f3dcc57");
+  background-size: cover;
+  background-position: center;
+}.i4{
+    height: 45%;
+    width: 25%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 2px 3px;
+  background-image: url("https://imgcdn.stablediffusionweb.com/2024/4/24/cb8a5753-390c-4c4a-8695-3f16a9f6b3e3.jpg");
+  background-size: cover;
+  background-position: center;
+}.i5{
+    height: 45%;
+    width: 23%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 2px 8px;
+  background-image: url("https://w0.peakpx.com/wallpaper/807/829/HD-wallpaper-oggy-cartoon-oggy-and-the-cockroaches-cartoon-oggy.jpg");
+  background-size: cover;
+  background-position: center;
+}.i6{
+    height: 45%;
+    width: 23%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 2px 3px;
+  background-image: url("https://rukminim2.flixcart.com/image/850/1000/kkec4280/sticker/2/b/5/doremon-medium-78-wall-sticker-gnrc-original-imafzr6hdqgvk9nw.jpeg?q=90&crop=false");
+  background-size: cover;
+  background-position: start;
+} 
+.i7{
+    height: 45%;
+    width: 23%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 2px 3px;
+  background-image: url("https://5.imimg.com/data5/SELLER/Default/2022/7/IF/MA/DG/82576150/doremon-wall-covering.jpeg");
+  background-size: cover;
+  background-position: center;
+} 
+.i8{
+    height: 45%;
+    width: 25%;
+    background-color: rgb(58, 183, 148);
+    border: 2px solid black;
+    border-radius: 15px;
+  display: inline-flex;
+  margin: 5px 3px;
+  background-image: url("https://5.imimg.com/data5/SELLER/Default/2022/7/IF/MA/DG/82576150/doremon-wall-covering.jpeg");
+  background-size: cover;
+  background-position: start;
+} 
+footer{
+    height: 10%;
+    width: 100%;
+ padding: 4px 5px;
+}.f1{
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 5px;
+}i{
+    margin-left: 44px ;
+    margin-right: 20px;
+}
+
+@media (max-width:600px) {
+    input{
+font-size: 90%;
+
+    }.icon{
+        margin-left: -2%;
+    }
+    .content{
+        height: 80%; 
+        width: 100%;
+    padding-top:5px;
+    }.i1{
+        height: 40%;
+        width: 30%;
+
+    }
+    .i2{
+        height: 40%;
+        width: 30%;
+
+    }
+    .i3{
+        height: 40%;
+        width: 30%;
+
+    }
+    .i4{
+        height: 50%;
+        width: 30%;
+        
+
+    }
+    .i5{
+        height: 50%;
+        width: 30%;
+
+    }
+    .i6{
+        height: 50%;
+        width: 30%;
+
+    }.i7 ,.i8{
+        display: none;
+
+    }footer{
+        font-size: 80%;
+        display: flex;
+        align-items: center;
+      
+    }
+}
